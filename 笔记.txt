@@ -1,0 +1,19 @@
+解压lib\MvImport\dll core\haclon
+
+pyrcc5 -o icon_rc.py icon.qrc
+
+
+数据转换 输出写入
+
+数据工具
+运行超时 运行报错
+模块清空 移动
+
+网络通讯 自定义输出连接
+其他项目 相机连接
+
+图片路径存储的绝对路径
+
+图像曝光
+
+OK,NG

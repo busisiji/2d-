@@ -1,0 +1,2937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1214</width>
+    <height>853</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>工业视觉集成平台</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resource.qrc">
+    <normaloff>:/logo/icon/logo.png</normaloff>:/logo/icon/logo.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(55, 81, 134);</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>24</width>
+    <height>24</height>
+   </size>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_18">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="1">
+        <layout class="QGridLayout" name="gridLayout_5">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="2" column="0">
+          <widget class="QWidget" name="widget_4" native="true">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(175, 175, 175);</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_10">
+            <item row="0" column="0">
+             <widget class="QTabWidget" name="tabWidget">
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(139, 146, 166);</string>
+              </property>
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="tab">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <attribute name="title">
+                <string>信息列表</string>
+               </attribute>
+               <layout class="QGridLayout" name="gridLayout_11">
+                <item row="0" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_13">
+                  <item>
+                   <spacer name="horizontalSpacer_30">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Fixed</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_9">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_31">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item row="1" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_17">
+                  <item>
+                   <spacer name="horizontalSpacer_36">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Fixed</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_3">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_10">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_37">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+                <item row="2" column="0">
+                 <layout class="QHBoxLayout" name="horizontalLayout_18">
+                  <item>
+                   <spacer name="horizontalSpacer_38">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                     <enum>QSizePolicy::Fixed</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_4">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="label_11">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="text">
+                     <string>TextLabel</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <spacer name="horizontalSpacer_39">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="2">
+          <widget class="QWidget" name="widget" native="true">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(175, 175, 175);</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="0" column="0">
+             <widget class="QWidget" name="widget_10" native="true">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: rgb(139, 146, 166);</string>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <property name="sizeConstraint">
+                <enum>QLayout::SetDefaultConstraint</enum>
+               </property>
+               <property name="leftMargin">
+                <number>9</number>
+               </property>
+               <property name="topMargin">
+                <number>9</number>
+               </property>
+               <property name="rightMargin">
+                <number>9</number>
+               </property>
+               <property name="bottomMargin">
+                <number>9</number>
+               </property>
+               <item>
+                <widget class="QWidget" name="widget_5" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout_12">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <widget class="QWidget" name="widget_3" native="true">
+                 <property name="sizePolicy">
+                  <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                   <horstretch>0</horstretch>
+                   <verstretch>0</verstretch>
+                  </sizepolicy>
+                 </property>
+                 <layout class="QGridLayout" name="gridLayout">
+                  <property name="leftMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="rightMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="bottomMargin">
+                   <number>0</number>
+                  </property>
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QWidget" name="widget_6" native="true">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <layout class="QGridLayout" name="gridLayout_19">
+                     <item row="0" column="1">
+                      <widget class="QLabel" name="label_6">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>编号</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="2">
+                      <widget class="QLabel" name="label_321">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>未选择工程文件</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="1">
+                      <widget class="QLabel" name="label_311">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>0</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="0" column="2">
+                      <widget class="QLabel" name="label_8">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>工程名称</string>
+                       </property>
+                       <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                       </property>
+                      </widget>
+                     </item>
+                     <item row="1" column="3">
+                      <widget class="QToolButton" name="toolButton">
+                       <property name="text">
+                        <string>...</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <widget class="QPushButton" name="pushButton_11">
+                    <property name="enabled">
+                     <bool>true</bool>
+                    </property>
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="minimumSize">
+                     <size>
+                      <width>60</width>
+                      <height>0</height>
+                     </size>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="layoutDirection">
+                     <enum>Qt::LeftToRight</enum>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">background-color: rgb(139, 146, 166);</string>
+                    </property>
+                    <property name="text">
+                     <string> 运行</string>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resource.qrc">
+                      <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>18</width>
+                      <height>18</height>
+                     </size>
+                    </property>
+                    <property name="autoDefault">
+                     <bool>false</bool>
+                    </property>
+                    <property name="default">
+                     <bool>false</bool>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="2">
+                   <widget class="QPushButton" name="pushButton_12">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string> 结束</string>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resource.qrc">
+                      <normaloff>:/over/icon/over.png</normaloff>:/over/icon/over.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>18</width>
+                      <height>18</height>
+                     </size>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="3">
+                   <widget class="QPushButton" name="pushButton_13">
+                    <property name="sizePolicy">
+                     <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                      <horstretch>0</horstretch>
+                      <verstretch>0</verstretch>
+                     </sizepolicy>
+                    </property>
+                    <property name="font">
+                     <font>
+                      <pointsize>11</pointsize>
+                     </font>
+                    </property>
+                    <property name="text">
+                     <string> 排版</string>
+                    </property>
+                    <property name="icon">
+                     <iconset resource="../resource.qrc">
+                      <normaloff>:/compose type/icon/compose.png</normaloff>:/compose type/icon/compose.png</iconset>
+                    </property>
+                    <property name="iconSize">
+                     <size>
+                      <width>18</width>
+                      <height>18</height>
+                     </size>
+                    </property>
+                    <property name="flat">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+               <item>
+                <spacer name="horizontalSpacer_8">
+                 <property name="orientation">
+                  <enum>Qt::Horizontal</enum>
+                 </property>
+                 <property name="sizeType">
+                  <enum>QSizePolicy::Preferred</enum>
+                 </property>
+                 <property name="sizeHint" stdset="0">
+                  <size>
+                   <width>752</width>
+                   <height>40</height>
+                  </size>
+                 </property>
+                </spacer>
+               </item>
+              </layout>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item row="1" column="1" rowspan="2">
+          <widget class="QStackedWidget" name="stackedWidget_13">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(175, 175, 175);</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="stackedWidget_13Page1">
+            <layout class="QGridLayout" name="gridLayout_8">
+             <item row="0" column="0">
+              <widget class="QTabWidget" name="tabWidget_2">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(139, 146, 166);</string>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="tab_2">
+                <attribute name="title">
+                 <string>排版设定</string>
+                </attribute>
+                <layout class="QGridLayout" name="gridLayout_17">
+                 <item row="0" column="0">
+                  <layout class="QVBoxLayout" name="verticalLayout">
+                   <item>
+                    <widget class="QGroupBox" name="groupBox">
+                     <property name="title">
+                      <string>相机数量</string>
+                     </property>
+                     <layout class="QFormLayout" name="formLayout">
+                      <item row="0" column="0">
+                       <widget class="QLabel" name="label_5">
+                        <property name="text">
+                         <string>数量：</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item row="0" column="1">
+                       <widget class="QComboBox" name="comboBox">
+                        <item>
+                         <property name="text">
+                          <string>1</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>2</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>4</string>
+                         </property>
+                        </item>
+                        <item>
+                         <property name="text">
+                          <string>9</string>
+                         </property>
+                        </item>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <layout class="QHBoxLayout" name="horizontalLayout_3">
+                     <item>
+                      <spacer name="horizontalSpacer">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>10</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="ptn_ok">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>确认</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="horizontalSpacer_2">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>10</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                     <item>
+                      <widget class="QPushButton" name="ptn_cancel">
+                       <property name="sizePolicy">
+                        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                         <horstretch>0</horstretch>
+                         <verstretch>0</verstretch>
+                        </sizepolicy>
+                       </property>
+                       <property name="text">
+                        <string>关闭</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <spacer name="horizontalSpacer_3">
+                       <property name="orientation">
+                        <enum>Qt::Horizontal</enum>
+                       </property>
+                       <property name="sizeType">
+                        <enum>QSizePolicy::Fixed</enum>
+                       </property>
+                       <property name="sizeHint" stdset="0">
+                        <size>
+                         <width>10</width>
+                         <height>20</height>
+                        </size>
+                       </property>
+                      </spacer>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <spacer name="verticalSpacer">
+                     <property name="orientation">
+                      <enum>Qt::Vertical</enum>
+                     </property>
+                     <property name="sizeHint" stdset="0">
+                      <size>
+                       <width>20</width>
+                       <height>40</height>
+                      </size>
+                     </property>
+                    </spacer>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_4">
+            <layout class="QGridLayout" name="gridLayout_14">
+             <item row="0" column="0">
+              <widget class="QTabWidget" name="tabWidget_3">
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(139, 146, 166);</string>
+               </property>
+               <property name="currentIndex">
+                <number>0</number>
+               </property>
+               <widget class="QWidget" name="tab_5">
+                <attribute name="title">
+                 <string>参数设定</string>
+                </attribute>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QStackedWidget" name="stackedWidget_3">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(113, 113, 113);</string>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <property name="currentIndex">
+            <number>3</number>
+           </property>
+           <widget class="QWidget" name="page_1">
+            <layout class="QGridLayout" name="gridLayout_9">
+             <item row="0" column="0">
+              <widget class="QWidget" name="widget_p1" native="true">
+               <widget class="QLabel" name="label_p1">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>54</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string> CCD1</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_p1_3">
+                <property name="geometry">
+                 <rect>
+                  <x>860</x>
+                  <y>0</y>
+                  <width>28</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../resource.qrc">
+                  <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_p1_1">
+                <property name="geometry">
+                 <rect>
+                  <x>800</x>
+                  <y>0</y>
+                  <width>60</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>24</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>24</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>图像编译</string>
+                </property>
+                <property name="autoRepeatDelay">
+                 <number>300</number>
+                </property>
+                <property name="autoRepeatInterval">
+                 <number>100</number>
+                </property>
+                <property name="autoDefault">
+                 <bool>false</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_p1_central">
+                <property name="geometry">
+                 <rect>
+                  <x>20</x>
+                  <y>0</y>
+                  <width>855</width>
+                  <height>570</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+               <zorder>label_p1_central</zorder>
+               <zorder>label_p1</zorder>
+               <zorder>pushButton_p1_3</zorder>
+               <zorder>pushButton_p1_1</zorder>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_2">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QWidget" name="widget_p2" native="true">
+               <widget class="QLabel" name="label_p2">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>54</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string> CCD1</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_p2_3">
+                <property name="geometry">
+                 <rect>
+                  <x>410</x>
+                  <y>0</y>
+                  <width>28</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../resource.qrc">
+                  <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_p2_1">
+                <property name="geometry">
+                 <rect>
+                  <x>350</x>
+                  <y>0</y>
+                  <width>60</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>24</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>24</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>图像编译</string>
+                </property>
+                <property name="autoRepeatDelay">
+                 <number>300</number>
+                </property>
+                <property name="autoRepeatInterval">
+                 <number>100</number>
+                </property>
+                <property name="autoDefault">
+                 <bool>false</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_p2_central">
+                <property name="geometry">
+                 <rect>
+                  <x>3</x>
+                  <y>171</y>
+                  <width>441</width>
+                  <height>294</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+               <zorder>label_p2_central</zorder>
+               <zorder>label_p2</zorder>
+               <zorder>pushButton_p2_3</zorder>
+               <zorder>pushButton_p2_1</zorder>
+              </widget>
+             </item>
+             <item>
+              <widget class="QWidget" name="widget_p3" native="true">
+               <widget class="QLabel" name="label_p3">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>54</width>
+                  <height>21</height>
+                 </rect>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string> CCD2</string>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_p3_3">
+                <property name="geometry">
+                 <rect>
+                  <x>410</x>
+                  <y>0</y>
+                  <width>28</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="icon">
+                 <iconset resource="../resource.qrc">
+                  <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                </property>
+               </widget>
+               <widget class="QPushButton" name="pushButton_p3_1">
+                <property name="geometry">
+                 <rect>
+                  <x>350</x>
+                  <y>0</y>
+                  <width>60</width>
+                  <height>24</height>
+                 </rect>
+                </property>
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>24</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>60</width>
+                  <height>24</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">color: rgb(255, 255, 255);</string>
+                </property>
+                <property name="text">
+                 <string>图像编译</string>
+                </property>
+                <property name="autoRepeatDelay">
+                 <number>300</number>
+                </property>
+                <property name="autoRepeatInterval">
+                 <number>100</number>
+                </property>
+                <property name="autoDefault">
+                 <bool>false</bool>
+                </property>
+                <property name="default">
+                 <bool>false</bool>
+                </property>
+               </widget>
+               <widget class="QLabel" name="label_p3_central">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>150</y>
+                  <width>441</width>
+                  <height>294</height>
+                 </rect>
+                </property>
+                <property name="text">
+                 <string>TextLabel</string>
+                </property>
+               </widget>
+               <zorder>label_p3_central</zorder>
+               <zorder>label_p3</zorder>
+               <zorder>pushButton_p3_3</zorder>
+               <zorder>pushButton_p3_1</zorder>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_3">
+            <layout class="QGridLayout" name="gridLayout_7">
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_6">
+               <item row="1" column="1">
+                <widget class="QWidget" name="widget_p7" native="true">
+                 <widget class="QLabel" name="label_p7">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD4</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p7_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>410</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p7_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>370</x>
+                    <y>0</y>
+                    <width>40</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>40</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="sizeIncrement">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="baseSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>9</pointsize>
+                    <kerning>true</kerning>
+                   </font>
+                  </property>
+                  <property name="autoFillBackground">
+                   <bool>false</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>全屏</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p7_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>310</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p7_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>420</width>
+                    <height>280</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p7_central</zorder>
+                 <zorder>label_p7</zorder>
+                 <zorder>pushButton_p7_3</zorder>
+                 <zorder>pushButton_p7_2</zorder>
+                 <zorder>pushButton_p7_1</zorder>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QWidget" name="widget_p4" native="true">
+                 <widget class="QLabel" name="label_p4">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD1</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p4_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>410</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p4_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>370</x>
+                    <y>0</y>
+                    <width>40</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>40</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="sizeIncrement">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="baseSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>9</pointsize>
+                    <kerning>true</kerning>
+                   </font>
+                  </property>
+                  <property name="autoFillBackground">
+                   <bool>false</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>全屏</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p4_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>310</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p4_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>420</width>
+                    <height>280</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p4_central</zorder>
+                 <zorder>label_p4</zorder>
+                 <zorder>pushButton_p4_3</zorder>
+                 <zorder>pushButton_p4_2</zorder>
+                 <zorder>pushButton_p4_1</zorder>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QWidget" name="widget_p5" native="true">
+                 <widget class="QLabel" name="label_p5">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD2</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p5_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>410</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p5_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>370</x>
+                    <y>0</y>
+                    <width>40</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>40</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="sizeIncrement">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="baseSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>9</pointsize>
+                    <kerning>true</kerning>
+                   </font>
+                  </property>
+                  <property name="autoFillBackground">
+                   <bool>false</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>全屏</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p5_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>310</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p5_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>420</width>
+                    <height>280</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p5_central</zorder>
+                 <zorder>label_p5</zorder>
+                 <zorder>pushButton_p5_3</zorder>
+                 <zorder>pushButton_p5_2</zorder>
+                 <zorder>pushButton_p5_1</zorder>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QWidget" name="widget_p6" native="true">
+                 <widget class="QLabel" name="label_p6">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD3</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p6_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>410</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p6_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>370</x>
+                    <y>0</y>
+                    <width>40</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>40</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="sizeIncrement">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="baseSize">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <pointsize>9</pointsize>
+                    <kerning>true</kerning>
+                   </font>
+                  </property>
+                  <property name="autoFillBackground">
+                   <bool>false</bool>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>全屏</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p6_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>310</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>0</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p6_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>420</width>
+                    <height>280</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p6_central</zorder>
+                 <zorder>label_p6</zorder>
+                 <zorder>pushButton_p6_3</zorder>
+                 <zorder>pushButton_p6_2</zorder>
+                 <zorder>pushButton_p6_1</zorder>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="page_5">
+            <layout class="QGridLayout" name="gridLayout_16">
+             <item row="0" column="0">
+              <layout class="QGridLayout" name="gridLayout_15">
+               <item row="2" column="2">
+                <widget class="QWidget" name="widget_p17" native="true">
+                 <widget class="QLabel" name="label_p17">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD9</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p17_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p17_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p17_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p17_central</zorder>
+                 <zorder>label_p17</zorder>
+                 <zorder>pushButton_p17_3</zorder>
+                 <zorder>pushButton_p17_1</zorder>
+                </widget>
+               </item>
+               <item row="0" column="2">
+                <widget class="QWidget" name="widget_p11" native="true">
+                 <widget class="QLabel" name="label_p11">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD3</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p11_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p11_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p11_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p11_central</zorder>
+                 <zorder>label_p11</zorder>
+                 <zorder>pushButton_p11_3</zorder>
+                 <zorder>pushButton_p11_1</zorder>
+                </widget>
+               </item>
+               <item row="0" column="1">
+                <widget class="QWidget" name="widget_p10" native="true">
+                 <widget class="QLabel" name="label_p10">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD2</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p10_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p10_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p10_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p10_central</zorder>
+                 <zorder>label_p10</zorder>
+                 <zorder>pushButton_p10_1</zorder>
+                 <zorder>pushButton_p10_3</zorder>
+                </widget>
+               </item>
+               <item row="2" column="0">
+                <widget class="QWidget" name="widget_p15" native="true">
+                 <widget class="QLabel" name="label_p15">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD7</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p15_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p15_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p15_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p15_central</zorder>
+                 <zorder>label_p15</zorder>
+                 <zorder>pushButton_p15_3</zorder>
+                 <zorder>pushButton_p15_1</zorder>
+                </widget>
+               </item>
+               <item row="1" column="1">
+                <widget class="QWidget" name="widget_p13" native="true">
+                 <widget class="QLabel" name="label_p13">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD5</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p13_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p13_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p13_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p13_central</zorder>
+                 <zorder>label_p13</zorder>
+                 <zorder>pushButton_p13_3</zorder>
+                 <zorder>pushButton_p13_1</zorder>
+                </widget>
+               </item>
+               <item row="1" column="2">
+                <widget class="QWidget" name="widget_p14" native="true">
+                 <widget class="QLabel" name="label_p14">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD6</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p14_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p14_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p14_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p14_central</zorder>
+                 <zorder>label_p14</zorder>
+                 <zorder>pushButton_p14_3</zorder>
+                 <zorder>pushButton_p14_1</zorder>
+                </widget>
+               </item>
+               <item row="0" column="0">
+                <widget class="QWidget" name="widget_p9" native="true">
+                 <property name="layoutDirection">
+                  <enum>Qt::LeftToRight</enum>
+                 </property>
+                 <property name="autoFillBackground">
+                  <bool>false</bool>
+                 </property>
+                 <widget class="QLabel" name="label_p9">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>31</width>
+                    <height>16</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD1</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p9_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p9_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>30</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>30</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>30</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p9_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p9_central</zorder>
+                 <zorder>label_p9</zorder>
+                 <zorder>pushButton_p9_1</zorder>
+                 <zorder>pushButton_p9_3</zorder>
+                </widget>
+               </item>
+               <item row="2" column="1">
+                <widget class="QWidget" name="widget_p16" native="true">
+                 <widget class="QLabel" name="label_p16">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD8</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p16_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p16_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p16_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p16_central</zorder>
+                 <zorder>label_p16</zorder>
+                 <zorder>pushButton_p16_3</zorder>
+                 <zorder>pushButton_p16_1</zorder>
+                </widget>
+               </item>
+               <item row="1" column="0">
+                <widget class="QWidget" name="widget_p12" native="true">
+                 <widget class="QLabel" name="label_p12">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>54</width>
+                    <height>12</height>
+                   </rect>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);
+background-color: transparent;</string>
+                  </property>
+                  <property name="text">
+                   <string> CCD4</string>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p12_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>260</x>
+                    <y>0</y>
+                    <width>28</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="../resource.qrc">
+                    <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+                  </property>
+                 </widget>
+                 <widget class="QPushButton" name="pushButton_p12_1">
+                  <property name="geometry">
+                   <rect>
+                    <x>200</x>
+                    <y>0</y>
+                    <width>60</width>
+                    <height>24</height>
+                   </rect>
+                  </property>
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="minimumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>60</width>
+                    <height>24</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">color: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>图像编译</string>
+                  </property>
+                  <property name="autoRepeatDelay">
+                   <number>300</number>
+                  </property>
+                  <property name="autoRepeatInterval">
+                   <number>100</number>
+                  </property>
+                  <property name="autoDefault">
+                   <bool>false</bool>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="label_p12_central">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>0</y>
+                    <width>270</width>
+                    <height>180</height>
+                   </rect>
+                  </property>
+                  <property name="text">
+                   <string>TextLabel</string>
+                  </property>
+                 </widget>
+                 <zorder>label_p12_central</zorder>
+                 <zorder>label_p12</zorder>
+                 <zorder>pushButton_p12_3</zorder>
+                 <zorder>pushButton_p12_1</zorder>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="icon">
+    <iconset resource="../resource.qrc">
+     <normaloff>:/file/icon/file.png</normaloff>:/file/icon/file.png</iconset>
+   </property>
+   <property name="text">
+    <string>项目文件</string>
+   </property>
+   <property name="toolTip">
+    <string>file</string>
+   </property>
+  </action>
+  <action name="action_2">
+   <property name="icon">
+    <iconset resource="../resource.qrc">
+     <normaloff>:/run/icon/run.png</normaloff>:/run/icon/run.png</iconset>
+   </property>
+   <property name="text">
+    <string>运行</string>
+   </property>
+   <property name="toolTip">
+    <string>run</string>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="icon">
+    <iconset resource="../resource.qrc">
+     <normaloff>:/over/icon/over.png</normaloff>:/over/icon/over.png</iconset>
+   </property>
+   <property name="text">
+    <string>停止</string>
+   </property>
+   <property name="toolTip">
+    <string>over</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="icon">
+    <iconset resource="../resource.qrc">
+     <normaloff>:/compose type/icon/compose.png</normaloff>:/compose type/icon/compose.png</iconset>
+   </property>
+   <property name="text">
+    <string>排版</string>
+   </property>
+   <property name="toolTip">
+    <string>排版</string>
+   </property>
+  </action>
+  <action name="actionlogo">
+   <property name="icon">
+    <iconset resource="../resource.qrc">
+     <normaloff>:/logo/icon/logo.ico</normaloff>:/logo/icon/logo.ico</iconset>
+   </property>
+   <property name="text">
+    <string>logo</string>
+   </property>
+   <property name="toolTip">
+    <string>logo</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../resource.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <slot>ProfectManagement()</slot>
+  <slot>Run()</slot>
+  <slot>Stop()</slot>
+  <slot>ShowCompose()</slot>
+  <slot>ShowOpencv()</slot>
+  <slot>Full()</slot>
+  <slot>RunOpencv()</slot>
+  <slot>Ok()</slot>
+  <slot>Cancel()</slot>
+ </slots>
+</ui>

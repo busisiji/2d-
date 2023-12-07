@@ -1,0 +1,5 @@
+使用 管理员权限 运行 InstallDSSvc_x64.bat
+
+安装 opencv-python
+pip install opencv-python==4.1.2.30 -i https://pypi.tuna.tsinghua.edu.cn/simple
+

@@ -1,0 +1,19 @@
+Empty
+IsEmpty
+Nothing
+Is Nothing
+Null
+IsNull
+True
+False
+dim
+if
+Sub
+then
+for
+to
+else
+end if
+End Sub
+next
+write

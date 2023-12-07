@@ -1,0 +1,47 @@
+<RCC>
+  <qresource prefix="file">
+    <file>icon/file.png</file>
+  </qresource>
+  <qresource prefix="相机">
+    <file>icon/预览.png</file>
+    <file>icon/闭眼睛.png</file>
+  </qresource>
+  <qresource prefix="列表">
+    <file>icon/icon_列表.png</file>
+  </qresource>
+  <qresource prefix="箭头">
+    <file>icon/右箭头3.png</file>
+    <file>icon/右箭头2.png</file>
+    <file>icon/右箭头.png</file>
+    <file>icon/向下.png</file>
+  </qresource>
+  <qresource prefix="视觉">
+    <file>icon/类型转换.png</file>
+    <file>icon/模板匹配.png</file>
+    <file>icon/图像类型.png</file>
+    <file>icon/颜色识别.png</file>
+    <file>icon/模板匹配.png</file>
+    <file>icon/斑点.png</file>
+    <file>icon/Modbus通讯-z.png</file>
+    <file>icon/右箭头.png</file>
+    <file>icon/数据转换.png</file>
+    <file>icon/颜色识别.png</file>
+    <file>icon/摄像头.png</file>
+    <file>icon/相机标定.png</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>icon/logo.png</file>
+    <file>icon/logo.ico</file>
+    <file>icon/logo.gif</file>
+  </qresource>
+  <qresource prefix="compose type">
+    <file>icon/compose.png</file>
+  </qresource>
+  <qresource prefix="run">
+    <file>icon/run.png</file>
+  </qresource>
+  <qresource prefix="over">
+    <file>icon/关闭.png</file>
+    <file>icon/over.png</file>
+  </qresource>
+</RCC>
